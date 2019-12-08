@@ -1,2 +1,2 @@
 # LeetcodeQuestions
-![mind map for data structure and algorithm](Algo & DS.png)
+<img width="500px" src="https://github.com/AlgorithmIdiot/LeetcodeQuestions/edit/master/Algo & DS.png">
