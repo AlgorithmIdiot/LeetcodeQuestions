@@ -1,8 +1,10 @@
+#include<iostream>
 template <typename Comparable>
 class BinarySearchTree
 {
     public:
-        BinarySearchTree();
+        BinarySearchTree()
+        {};
         BinarySearchTree(const BinarySearchTree & rhs):root{nullptr}
         {
             root = clone(rhs.root);
@@ -18,8 +20,18 @@ class BinarySearchTree
         bool contains(const Comparable & x) const{
             return contains(x,root);
         }
-        bool isEmpty() const;
-        void printTree(ostream & out = cout const);
+        bool isEmpty() const{
+            if(root==nullptr)
+                return true;
+            else 
+                return false;
+        }
+        void printTree(std::ostream & out = std::cout) const{
+            if(isEmpty())
+                out << "Empty tree" << std::endl;
+            else 
+                printTree(root,out);
+        }
         
         void makeEmpty(){
             makeEmpty(root);
@@ -122,7 +134,14 @@ class BinarySearchTree
             }
             t = nullptr;
         }
-        void printTree(BinaryNode *t , ostream &out) const ;
+        void printTree(BinaryNode *t , std::ostream &out) const {
+            if(t!= nullptr)
+            {
+                printTree(t->left,out);
+                out << t->element << std::endl;
+                printTree(t->right,out);
+            }
+        }
         BinaryNode * clone (BinaryNode *t) const{
             if(t == nullptr)
                 return nullptr;
