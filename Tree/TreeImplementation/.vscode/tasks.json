@@ -8,7 +8,7 @@
             // use options.cwd property if the Makefile is not in the project root ${workspaceRoot} dir,
             // start the build without prompting for task selection, use "group": "build" otherwise
             "options": {
-                "cwd": "${workspaceRoot}/build"
+                "cwd": "${workspaceRoot}/Set_tree"
             },
             "group": {
                 "kind": "build",

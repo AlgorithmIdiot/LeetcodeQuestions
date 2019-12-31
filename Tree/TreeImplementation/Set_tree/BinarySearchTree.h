@@ -1,17 +1,17 @@
 #include<iostream>
 template <typename Comparable>
-class BinarySearchTree
+class Set
 {
     public:
-        BinarySearchTree()
+        Set()
         {};
-        BinarySearchTree(const BinarySearchTree & rhs):root{nullptr}
+        Set(const Set & rhs):root{nullptr}
         {
             root = clone(rhs.root);
         }
-        BinarySearchTree(BinarySearchTree && rhs);
+        Set(Set && rhs);
         // destructor of the tree 
-        ~BinarySearchTree(){
+        ~Set(){
             makeEmpty();
         }
 
@@ -48,8 +48,8 @@ class BinarySearchTree
             remove (x,root);
         }
 
-        BinarySearchTree & operator = (const BinarySearchTree & rhs );
-        BinarySearchTree & operator = (BinarySearchTree && rhs);
+        Set & operator = (const Set & rhs );
+        Set & operator = (Set && rhs);
     private:
         struct BinaryNode
         {
@@ -59,8 +59,7 @@ class BinarySearchTree
             BinaryNode (const Comparable & theElement, BinaryNode* lt, BinaryNode * rt)
             : element{theElement},left{lt},right{rt} {}
         };
-        BinaryNode * root = nullptr;  
-
+        BinaryNode * root = nullptr; 
         void insert (const Comparable &x , BinaryNode * &t){
             if(t == nullptr)
                 t = new BinaryNode {x, nullptr , nullptr};
