@@ -1,0 +1,42 @@
+﻿  Insert_Depth_height.cpp
+c:\users\wang chao\onedrive - hkust connect\code\leetcodequestions\list-queue-stack\listqueuestack\set\set.h(68): error C2143: syntax error: missing ';' before '<'
+  c:\users\wang chao\onedrive - hkust connect\code\leetcodequestions\list-queue-stack\listqueuestack\set\set.h(72): note: see reference to class template instantiation 'Set<Comparable>::const_iterator' being compiled
+  c:\users\wang chao\onedrive - hkust connect\code\leetcodequestions\list-queue-stack\listqueuestack\set\set.h(134): note: see reference to class template instantiation 'Set<Comparable>' being compiled
+c:\users\wang chao\onedrive - hkust connect\code\leetcodequestions\list-queue-stack\listqueuestack\set\set.h(68): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\wang chao\onedrive - hkust connect\code\leetcodequestions\list-queue-stack\listqueuestack\set\set.h(68): error C2238: unexpected token(s) preceding ';'
+c:\users\wang chao\onedrive - hkust connect\code\leetcodequestions\list-queue-stack\listqueuestack\set\set.h(71): error C2061: syntax error: identifier 'BinaryNode'
+c:\users\wang chao\onedrive - hkust connect\code\leetcodequestions\list-queue-stack\listqueuestack\set\set.h(71): error C2535: 'Set<Comparable>::const_iterator::const_iterator(void)': member function already defined or declared
+  c:\users\wang chao\onedrive - hkust connect\code\leetcodequestions\list-queue-stack\listqueuestack\set\set.h(31): note: see declaration of 'Set<Comparable>::const_iterator::const_iterator'
+c:\users\wang chao\onedrive - hkust connect\code\leetcodequestions\list-queue-stack\listqueuestack\set\set.h(111): error C2061: syntax error: identifier 'BinaryNode'
+  c:\users\wang chao\onedrive - hkust connect\code\leetcodequestions\list-queue-stack\listqueuestack\set\set.h(113): note: see reference to class template instantiation 'Set<Comparable>::iterator' being compiled
+c:\users\wang chao\onedrive - hkust connect\code\leetcodequestions\list-queue-stack\listqueuestack\set\set.h(111): error C2535: 'Set<Comparable>::iterator::iterator(void)': member function already defined or declared
+  c:\users\wang chao\onedrive - hkust connect\code\leetcodequestions\list-queue-stack\listqueuestack\set\set.h(78): note: see declaration of 'Set<Comparable>::iterator::iterator'
+c:\users\wang chao\onedrive - hkust connect\code\leetcodequestions\list-queue-stack\listqueuestack\set\set.h(119): error C2061: syntax error: identifier 'BinaryNode'
+c:\users\wang chao\onedrive - hkust connect\code\leetcodequestions\list-queue-stack\listqueuestack\set\set.h(121): error C2535: 'Set<Comparable>::iterator Set<Comparable>::insert(const Comparable &)': member function already defined or declared
+  c:\users\wang chao\onedrive - hkust connect\code\leetcodequestions\list-queue-stack\listqueuestack\set\set.h(14): note: see declaration of 'Set<Comparable>::insert'
+c:\users\wang chao\onedrive - hkust connect\code\leetcodequestions\list-queue-stack\listqueuestack\set\set.h(21): error C3861: 'BinaryNode': identifier not found
+c:\users\wang chao\onedrive - hkust connect\code\leetcodequestions\list-queue-stack\listqueuestack\set\set.h(21): error C3861: 't': identifier not found
+c:\users\wang chao\onedrive - hkust connect\code\leetcodequestions\list-queue-stack\listqueuestack\set\set.h(22): error C3861: 't': identifier not found
+c:\users\wang chao\onedrive - hkust connect\code\leetcodequestions\list-queue-stack\listqueuestack\set\set.h(23): error C3861: 't': identifier not found
+c:\users\wang chao\onedrive - hkust connect\code\leetcodequestions\list-queue-stack\listqueuestack\set\set.h(24): error C3861: 't': identifier not found
+c:\users\wang chao\onedrive - hkust connect\code\leetcodequestions\list-queue-stack\listqueuestack\set\set.h(31): error C3861: 'current': identifier not found
+c:\users\wang chao\onedrive - hkust connect\code\leetcodequestions\list-queue-stack\listqueuestack\set\set.h(37): error C3861: 'BinaryNode': identifier not found
+c:\users\wang chao\onedrive - hkust connect\code\leetcodequestions\list-queue-stack\listqueuestack\set\set.h(37): error C3861: 't': identifier not found
+c:\users\wang chao\onedrive - hkust connect\code\leetcodequestions\list-queue-stack\listqueuestack\set\set.h(38): error C3861: 'current': identifier not found
+c:\users\wang chao\onedrive - hkust connect\code\leetcodequestions\list-queue-stack\listqueuestack\set\set.h(40): error C3861: 't': identifier not found
+c:\users\wang chao\onedrive - hkust connect\code\leetcodequestions\list-queue-stack\listqueuestack\set\set.h(40): error C3861: 'current': identifier not found
+c:\users\wang chao\onedrive - hkust connect\code\leetcodequestions\list-queue-stack\listqueuestack\set\set.h(41): error C3861: 't': identifier not found
+c:\users\wang chao\onedrive - hkust connect\code\leetcodequestions\list-queue-stack\listqueuestack\set\set.h(42): error C3861: 't': identifier not found
+c:\users\wang chao\onedrive - hkust connect\code\leetcodequestions\list-queue-stack\listqueuestack\set\set.h(43): error C3861: 'current': identifier not found
+c:\users\wang chao\onedrive - hkust connect\code\leetcodequestions\list-queue-stack\listqueuestack\set\set.h(43): error C3861: 't': identifier not found
+c:\users\wang chao\onedrive - hkust connect\code\leetcodequestions\list-queue-stack\listqueuestack\set\set.h(47): error C3861: 't': identifier not found
+c:\users\wang chao\onedrive - hkust connect\code\leetcodequestions\list-queue-stack\listqueuestack\set\set.h(47): error C3861: 'current': identifier not found
+c:\users\wang chao\onedrive - hkust connect\code\leetcodequestions\list-queue-stack\listqueuestack\set\set.h(48): error C3861: 't': identifier not found
+c:\users\wang chao\onedrive - hkust connect\code\leetcodequestions\list-queue-stack\listqueuestack\set\set.h(49): error C3861: 't': identifier not found
+c:\users\wang chao\onedrive - hkust connect\code\leetcodequestions\list-queue-stack\listqueuestack\set\set.h(49): error C3861: 'current': identifier not found
+c:\users\wang chao\onedrive - hkust connect\code\leetcodequestions\list-queue-stack\listqueuestack\set\set.h(50): error C3861: 't': identifier not found
+c:\users\wang chao\onedrive - hkust connect\code\leetcodequestions\list-queue-stack\listqueuestack\set\set.h(51): error C3861: 'current': identifier not found
+c:\users\wang chao\onedrive - hkust connect\code\leetcodequestions\list-queue-stack\listqueuestack\set\set.h(51): error C3861: 't': identifier not found
+c:\users\wang chao\onedrive - hkust connect\code\leetcodequestions\list-queue-stack\listqueuestack\set\set.h(63): error C3861: 'current': identifier not found
+c:\users\wang chao\onedrive - hkust connect\code\leetcodequestions\list-queue-stack\listqueuestack\set\set.h(70): error C3861: 'current': identifier not found
+c:\users\wang chao\onedrive - hkust connect\code\leetcodequestions\list-queue-stack\listqueuestack\set\set.h(134): fatal error C1903: unable to recover from previous error(s); stopping compilation

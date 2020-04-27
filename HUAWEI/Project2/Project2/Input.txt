@@ -1,0 +1,5 @@
+4
+ttt=www/${yyy}
+aaa=lyf/${ttt}/test
+yyy=seeyou
+aa=/aaa/${aaa}/bbb/${yyy}/ccc
