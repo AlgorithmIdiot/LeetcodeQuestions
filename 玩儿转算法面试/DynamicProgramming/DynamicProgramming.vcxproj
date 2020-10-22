@@ -18,11 +18,22 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="120_triangle.h" />
+    <ClInclude Include="279_PerfectSquareNumbers.h" />
+    <ClInclude Include="64_MinimumPathSum.h" />
+    <ClInclude Include="70_ClimbLadders.h" />
+    <ClInclude Include="fib.h" />
+    <ClInclude Include="10_RegularExpressingMatch.h" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
-    <ProjectGuid>{84BE6D04-842E-4AD1-9D17-25B27B430B08}</ProjectGuid>
-    <RootNamespace>BinaryTreeandrecursion</RootNamespace>
-    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+    <ProjectGuid>{4B475FAC-39DF-4EC9-91FA-7D02D88D4F38}</ProjectGuid>
+    <RootNamespace>DynamicProgramming</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -114,21 +125,6 @@
       <OptimizeReferences>true</OptimizeReferences>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClInclude Include="105.h" />
-    <ClInclude Include="108.h" />
-    <ClInclude Include="114.h" />
-    <ClInclude Include="230.h" />
-    <ClInclude Include="236.h" />
-    <ClInclude Include="450.h" />
-    <ClInclude Include="77.h" />
-    <ClInclude Include="98.h" />
-    <ClInclude Include="BinaryTree.h" />
-    <ClInclude Include="TreeNode.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="main.cpp" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

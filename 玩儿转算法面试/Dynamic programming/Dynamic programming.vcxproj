@@ -20,8 +20,8 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
-    <ProjectGuid>{84BE6D04-842E-4AD1-9D17-25B27B430B08}</ProjectGuid>
-    <RootNamespace>BinaryTreeandrecursion</RootNamespace>
+    <ProjectGuid>{EE0D0448-87C5-42AB-9AAB-25C3178E4624}</ProjectGuid>
+    <RootNamespace>Dynamicprogramming</RootNamespace>
     <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -115,19 +115,6 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="105.h" />
-    <ClInclude Include="108.h" />
-    <ClInclude Include="114.h" />
-    <ClInclude Include="230.h" />
-    <ClInclude Include="236.h" />
-    <ClInclude Include="450.h" />
-    <ClInclude Include="77.h" />
-    <ClInclude Include="98.h" />
-    <ClInclude Include="BinaryTree.h" />
-    <ClInclude Include="TreeNode.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="main.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

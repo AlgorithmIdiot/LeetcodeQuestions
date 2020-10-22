@@ -20,9 +20,9 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
-    <ProjectGuid>{84BE6D04-842E-4AD1-9D17-25B27B430B08}</ProjectGuid>
-    <RootNamespace>BinaryTreeandrecursion</RootNamespace>
-    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+    <ProjectGuid>{8BAB69BC-0BF2-43BF-8009-CBDA975B7C31}</ProjectGuid>
+    <RootNamespace>Functor</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -115,19 +115,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="105.h" />
-    <ClInclude Include="108.h" />
-    <ClInclude Include="114.h" />
-    <ClInclude Include="230.h" />
-    <ClInclude Include="236.h" />
-    <ClInclude Include="450.h" />
-    <ClInclude Include="77.h" />
-    <ClInclude Include="98.h" />
-    <ClInclude Include="BinaryTree.h" />
-    <ClInclude Include="TreeNode.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Functor.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
