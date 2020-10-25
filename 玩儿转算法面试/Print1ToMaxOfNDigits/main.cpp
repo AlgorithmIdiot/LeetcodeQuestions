@@ -1,10 +1,11 @@
 #include"StringCalculation.h"
-
+#include<vector>
+#include<string>
 int main() {
-
-	int n = 3;
-	Print1ToMaxOfNDigits(n);
-
+	std::vector<std::string> v;
+	std::string str = "example is like this";
+	auto m = str.find("pl");
+	std::cout << str.substr(str.find("pl"));
 	std::cin.get();
 
 }
