@@ -10,8 +10,6 @@ changes are minor.
 #include<utility>
 #include<vector>
 
-
-
 inline int leftChild(int i)
 {
 	return 2 * i + 1;
